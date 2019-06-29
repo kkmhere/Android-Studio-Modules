@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/send"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:title="SEND"/>
+
+    <item android:id="@+id/reply"
+        android:icon="@drawable/ic_reply_black_24dp"
+        android:title="REPLY"/>
+
+    <item android:id="@+id/reply_all"
+        android:icon="@drawable/ic_reply_all_black_24dp"
+        android:title="REPLY ALL"/>
+    <item android:id="@+id/other"
+        android:title="OTHERS">
+
+        <menu>
+            <item android:id="@+id/undo"
+                android:icon="@drawable/ic_undo_black_24dp"
+                android:title="UNDO"/>
+
+            <item android:id="@+id/redo"
+                android:icon="@drawable/ic_redo_black_24dp"
+                android:title="REDO"/>
+
+        </menu>
+    </item>
+
+</menu>
